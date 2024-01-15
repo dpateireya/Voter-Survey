@@ -39,7 +39,12 @@ function RegistrationPage() {
                   विधानसभा
                 </Form.Label>
                 <Col sm={10}>
-                  <Form.Control type="number" placeholder="Mobile Number" />
+                  <Form.Select aria-label="Default select example">
+                    <option>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </Form.Select>
                 </Col>
               </Form.Group>
               <Form.Group as={Row} className="mb-3">
@@ -47,7 +52,12 @@ function RegistrationPage() {
                   विकासखण्ड
                 </Form.Label>
                 <Col sm={10}>
-                  <Form.Control type="number" placeholder="Mobile Number" />
+                  <Form.Select aria-label="Default select example">
+                    <option>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </Form.Select>
                 </Col>
               </Form.Group>
               <Form.Group as={Row} className="mb-3">
@@ -55,7 +65,12 @@ function RegistrationPage() {
                   ग्राम पंचायत
                 </Form.Label>
                 <Col sm={10}>
-                  <Form.Control type="number" placeholder="Mobile Number" />
+                  <Form.Select aria-label="Default select example">
+                    <option>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </Form.Select>
                 </Col>
               </Form.Group>
 
