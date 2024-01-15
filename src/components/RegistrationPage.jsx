@@ -8,11 +8,11 @@ function RegistrationPage() {
       <Container>
         <Row className="justify-content-md-center ">
           <Col>
-            <h1 className="text-center"> Registration here </h1>
+            <h1 className="text-center"> पंजीयन करें </h1>
             <Form>
               <Form.Group as={Row} className="mb-3">
                 <Form.Label column sm={2}>
-                  Full Name
+                  पूरा नाम
                 </Form.Label>
                 <Col sm={10}>
                   <Form.Control type="text" placeholder="Full Name" />
@@ -20,7 +20,7 @@ function RegistrationPage() {
               </Form.Group>
               <Form.Group as={Row} className="mb-3">
                 <Form.Label column sm={2}>
-                  Email
+                  ई-मेल
                 </Form.Label>
                 <Col sm={10}>
                   <Form.Control type="email" placeholder="Email" />
@@ -28,7 +28,7 @@ function RegistrationPage() {
               </Form.Group>
               <Form.Group as={Row} className="mb-3">
                 <Form.Label column sm={2}>
-                  Mobile No.
+                  मोबाइल नम्बर
                 </Form.Label>
                 <Col sm={10}>
                   <Form.Control type="number" placeholder="Mobile Number" />
@@ -36,7 +36,7 @@ function RegistrationPage() {
               </Form.Group>
               <Form.Group as={Row} className="mb-3">
                 <Form.Label column sm={2}>
-                  Mobile No.
+                  विधानसभा
                 </Form.Label>
                 <Col sm={10}>
                   <Form.Control type="number" placeholder="Mobile Number" />
@@ -44,7 +44,7 @@ function RegistrationPage() {
               </Form.Group>
               <Form.Group as={Row} className="mb-3">
                 <Form.Label column sm={2}>
-                  Mobile No.
+                  विकासखण्ड
                 </Form.Label>
                 <Col sm={10}>
                   <Form.Control type="number" placeholder="Mobile Number" />
@@ -52,7 +52,7 @@ function RegistrationPage() {
               </Form.Group>
               <Form.Group as={Row} className="mb-3">
                 <Form.Label column sm={2}>
-                  Mobile No.
+                  ग्राम पंचायत
                 </Form.Label>
                 <Col sm={10}>
                   <Form.Control type="number" placeholder="Mobile Number" />
