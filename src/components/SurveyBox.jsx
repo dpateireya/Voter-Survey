@@ -13,10 +13,7 @@ function SurveyBox() {
   }, [open]);
   return (
     <>
-      <div>
-        sdlkf as;dlkf elfjasl;fj aelfslkdfksfkjshf skjf lf ejsfjhfjbflf jb iubsf
-        jf ufjh sdfjfhf hj
-      </div>
+      <div>This is a survey form for voters</div>
       <div className="container-lg m-3 ">
         <Fade in={open}>
           <div id="example-fade-text" className="border p-lg-5 ">
