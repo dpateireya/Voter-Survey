@@ -5,7 +5,7 @@ import DashboardPage from "./components/DashboardPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Voter-Survey">
         <Routes>
           <Route element={<RegistrationPage />} path="/" />
           <Route element={<DashboardPage />} path="/dashboard" />
